@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#judul-form {
+    font-weight: bold;
+    color: #333;
+}
+
+#login-box {
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#login-box:hover {
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    transform: translateY(-5px);
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    color: #495057;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+}
+
+.input-group .form-control {
+    border: 1px solid #ced4da;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    padding: 10px 15px;
+    height: 38px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #5b10af, #1e63d2);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.btn-outline-primary {
+    border-color: #6a11cb;
+    color: #6a11cb;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6a11cb;
+    color: white;
+}
+
+.active-tab {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: white;
+    border: none;
+}
+
+.menu-icon {
+    font-size: 1.5em;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.menu-text {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    color: #333;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.menu-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d1d1d1;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-category {
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: rgb(51, 50, 50);
+}
+
+.tb-menu {
+    background-color: white;
+}
+
+.table-white th, .table-white td {
+    background-color: white !important;
+    color: black;
+}
+
+.text-bg-success {
+    background-color: white !important;
+    color: black !important;
+}
+
+.text-center {
+    text-align: center;
+}
